@@ -3,9 +3,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [message, setMessage] = useState("");
   const sayHello = () => {
-    setMessage("hello");
+    console.log("hello");
   };
   useEffect(() => {
     sayHello();
