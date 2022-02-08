@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import { useState } from "react";
 import { useTabs } from "./useTabs";
 
 const content = [

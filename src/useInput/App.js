@@ -1,6 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { useState } from "react";
 import { useInput } from "./useInput";
 
 function App() {
